@@ -1,0 +1,45 @@
+# General ignores
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# STS (Spring Tool Suite) specific files
+.apt_generated
+.classpath
+.project
+.settings/
+.springBeans
+
+# Maven/Gradle files
+target/
+build/
+*.war
+*.jar
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build files
+build/
+
+# VS Code specific files
+.vscode/
+
+# IntelliJ IDEA files (if applicable)
+.idea/
+*.iml
+out/
+
+# OS-specific files
+*.swp
+*~
+
+# Environment variables
+.env
